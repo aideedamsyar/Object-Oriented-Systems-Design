@@ -35,7 +35,7 @@ public class Battle {
         Player user = new Player(userName, userAttack, userDefense, userHealth);
         Player enemy = new Player(enemyName, enemyAttack, enemyDefense, enemyHealth);
 
-        while (user.isALive() && enemy.isALive()) {
+        while (true) {
             // User's turn
             System.out.print("It's your turn.\nChoose an action:\n1. Attack\n2. Defend\n");
             int userInput = scanner.nextInt();
@@ -46,13 +46,13 @@ public class Battle {
             } else if (userInput == 1) {
                 user.attack(enemy);
                 System.out.println(user.getName() + " attacks " + enemy.getName() + " for " + (user.getAttack() - enemy.getDefense()) + " damage. (" + enemy.getName() + "'s hp: " + enemy.getHealth() + ")");
+                if (!enemy.isALive() || !user.isALive()) break;
             }
-            if (!enemy.isALive() || !user.isALive()) break;
+
             // CPU's turn
             System.out.println("It's enemy's turn.");
             enemy.attack(user);
             System.out.println(enemy.getName() + " attacks " + user.getName() + " for " + (enemy.getAttack() - user.getDefense()) + " damage. (" + user.getName() + "'s hp: " + user.getHealth() + ")");
-
             if (!enemy.isALive() || !user.isALive()) break;
         }
 
