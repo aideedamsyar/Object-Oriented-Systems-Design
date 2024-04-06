@@ -1,6 +1,6 @@
 # Personal Note on **`genRandomUnique()`** Method
 
-Since I found my Lottery Simulator program that I've submitted for my assignment to be redundant, not organized and not-so-elegant, I've decided to optimize them and there is a significant change to my **`genRandomUnique()`** method. 
+Since I found the Lottery Simulator program that I submitted for my assignment to be not organized and not-so-elegant, I've decided to optimize it and there has been a significant change to my **`genRandomUnique()`** method. 
 
 ## Previous Version:
 ```java
