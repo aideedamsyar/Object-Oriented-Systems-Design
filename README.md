@@ -1,15 +1,13 @@
 # Object-Oriented Systems Design 🗂
 
-This repository for my OOP class, including coding assignments, project solutions, and study notes. It's a personal academic archive meant to track my progress and serve as a reference. 
-
-Note that relative to my Data Strcutures repo, less explanation is included as it tends to be less complex and has more emphasis on learning the Java language itself.
+This is the repository for my OOP class, which includes coding assignments, project solutions, and study notes. It's a personal academic archive meant to track my progress and serve as a reference. 
 
 ## Contents 🚀
-- [Week 1: Environment Setting & Introduction]()
-- [Week 2: Dynamic Memory Allocation](./Lab%202/)
-- [Week 3: Linked List](./Lab%203/)
-- [Week 4: Stack](./Lab%204/)
-- [Week 5: Queue](./Lab%205/)
+- [Week 1 & 2: Environment Setting and Introduction](./Week%201%20&%20Week%202/)
+- [Week 3: Console Input and Output](./Week3/)
+- [Week 4: Flow of Control](./Week4/)
+- [Week 5: Defining Class I](./Week5/)
+
 
 ## Contact 📫
 - [aideedamsyar.com/contact]()
