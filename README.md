@@ -8,6 +8,8 @@ This is the repository for my OOP class, which includes coding assignments, proj
 - [Week 4: Flow of Control](./Week4/)
 - [Week 5: Defining Class I](./Week5/)
 
+## Assignments 📋
+- [Lottery Simulator](./LotterySimulator/)
 
 ## Contact 📫
 - [aideedamsyar.com/contact]()
